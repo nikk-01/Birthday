@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation */
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 31px 15px; 
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 5px 25px;
+    float: right;
+    color: cornsilk;
+}
+#navbar ul li a:hover{
+    background-color: #e25959;
+    border-radius: 23px;
+}
+
+/* Home Section  */
+#home-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#home-section::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url('../images/bg.png')no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+#first{
+    position: relative;
+    top: 30px;
+    right: 430px;
+    height: 120px;
+    width: 602px;
+    /* background-color: rgb(252, 116, 116); */
+    background-color: #EC7969;
+    opacity: 0.9;
+    color: #8d3333;
+}
+#second{
+    position: relative;
+    top: 0px;
+    right: 215px;
+    height: 120px;
+    width: 602px;
+    background-color: lightgoldenrodyellow;
+    opacity: 0.75;
+    color: #8d3333;
+}
+#home-section h1{
+    padding: 25px 0px;
+}
+/* Utility Classes */
+.h-primary{
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-size: 3rem;
+}
+.para{
+    text-align: center;
+    font-size: 1.3rem;
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Merienda', cursive; */
+    font-family: cursive;
+    color: #681414;
+    margin: 15px 15px;
+    padding: 15px 15px;
+}
+
+/* Block 1 */
+#block1{
+    height: 150px;
+    background-color: rgba(231, 88, 26, 0.42);
+}
+#block1 p{
+    display: block;
+    height: 100px;
+    width: 60%;
+    font-size: 1.2rem;
+    /* font-family: 'Merienda', cursive; */
+    /* font-family: 'Caveat', cursive; */
+    font-family: cursive;
+    text-align: center;
+    margin: 181px 300px;
+    padding: 30px 10px;
+}
+#img{
+    height: 0px;
+}
+#img img{
+    margin: 0px 20px;
+}
+
+/* Block 2 */
+#block2{
+    height: 150px;
+    background-color: rgba(231, 88, 26, 0.42);
+}
+#block2 p{
+    display: block;
+    height: 100px;
+    width: 66%;
+    font-size: 1.2rem;
+    /* font-family: 'Merienda', cursive;  */
+
+    font-family: cursive;
+    margin: 0px 150px;
+    padding: 30px 10px;
+}
+#img1{
+    height: 0px;
+}
+#img1 img{
+    margin: -144px 20px;
+    height: 290px;
+    width: 200px;
+    float: right;
+}
+
+/* About Section  */
+#about{
+    background-color: rgba(226, 181, 119, 0.4);
+    /* rgba(226, 181, 119, 0.44); */
+}
+#heading{
+    display: flex;
+}
+#heading h3{
+    font-size: 1.7rem;
+    font-family: 'Caveat', cursive;
+    padding: 8px 3px;
+}
+#box1{
+    margin: 20px 20px;
+    height: 50px;
+    width: 47%;
+    background-color: #EC7969;
+}
+#box2{
+    margin: 20px 20px;
+    height: 50px;
+    width: 47%;
+    background-color: #ff383ca1;
+}
+#about-section{
+    display: flex;
+}
+#box3 img{
+    position: relative;
+    top: 10px;
+    left: 80px;
+    height: 590px;
+    width: 300px;
+}
+#box4 img{
+    position: relative;
+    top: 65px;
+    left: 100px;
+    height: 570px;
+    width: 306px;
+}
+#box5 img{
+    position: relative;
+    top: 512px;
+    right: 457px;
+    height: 300px;
+    width: 440px;
+}
+#box6{
+    position: relative;
+    top: 0px;
+    right: 150px;
+    border: 2px solid #EC7969;
+    height: 800px;
+    width: 900px;
+    padding: 10px 20px;
+}
+#box6 p{
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+/* Kabaddi Section  */
+#kabaddi{
+    display: flex;
+    background-color: rgba(226, 181, 119, 0.4);
+}
+#kabaddi h1{
+    font-size: 3.7rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 30px 50px;
+}
+.box{
+    height: 500px;
+    width: 500px;
+    border: 2px solid #EC7969;
+    padding: 10px 20px;
+    margin: 30px 20px;
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+.pic{
+    margin: 30px 20px;
+}
+.pic img{
+    height: 500px;
+    width: 419px;
+}
+/* Block 3 */
+#block3{
+    height: 150px;
+    background-color: rgba(231, 88, 26, 0.52);
+}
+#block3 p{
+    display: block;
+    height: 100px;
+    width: 60%;
+    font-size: 1.6rem;
+    font-family: cursive;
+    text-align: center;
+    margin: 0px 300px;
+    padding: 22px 10px;
+}
+/* Nikkhul */
+#us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+}
+#us .h-primary{
+    background-color: tomato;
+    width: 100%;
+    margin: 5px 10px;
+}
+.h-secondary{
+    font-size: 3rem;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    background-color: tomato;
+    width: 100%;
+    margin: 5px 10px;
+}
+#us p{
+    font-size: 2rem;
+    font-family: cursive;
+    margin: 20px;
+}
+.btn{
+    margin: 20px;
+    padding: 17px 30px;
+    font-size: 1.2rem;
+    border-radius: 35px;
+    background-color: #ff3a3a;
+    cursor: pointer;
+    color: white;
+}
